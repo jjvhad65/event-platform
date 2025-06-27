@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fefcfb; /* light gray instead of white */
+  --foreground: #3f3f46; /* dark slate text */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1c1b1b;
+    --foreground: #e5e5e5;
+  }
+}
+*/
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  /* remove Tailwind override for bg and text here */
+}
